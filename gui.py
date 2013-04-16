@@ -169,7 +169,7 @@ class Window(Tkinter.Tk):
         self.input_serializer = input_serializer
         self.output_serializer = output_serializer
         
-        self.title("SONIA Pymodem")
+        self.title("SONIA AUV pyng")
         self.resizable(True, True)
         self.grid_rowconfigure(1, weight=20)
         self.grid_rowconfigure(2, weight=50)

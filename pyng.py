@@ -15,7 +15,7 @@ from datetime import datetime
 class Pyng(object):
     
     def __init__(self):
-        print "Starting Pymodem"
+        print "Starting pyng"
         self.input_serializer = serialization.CsvSerializer(str(datetime.now()) + "-input.csv", ["heading", "depth", "light", "crc", "calculated_crc", "first_byte", "seconde_byte", "first_crc", "second_crc"])
         self.output_serializer = serialization.CsvSerializer(str(datetime.now()) + "-output.csv", ["heading", "depth", "light", "crc", "first_byte", "seconde_byte", "first_crc", "second_crc"])
         self.communicator = communication.SerialCommunicator()
