@@ -1,3 +1,6 @@
+# csv files created by pyng
+*.csv
+
 *.py[cod]
 
 # C extensions
