@@ -10,7 +10,7 @@ from time import sleep
 from threading import Thread
 from Tkinter import ON, OFF
 
-from Protocol import create_kill, decodeCrc8, decodeCrc16
+from protocol import create_kill, decodeCrc8, decodeCrc16
 
 class SerialCommunicator(object):
 

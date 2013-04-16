@@ -7,7 +7,7 @@ Created on Jul 6, 2012
 import Tkinter
 import tkMessageBox
 
-from Protocol import create_kill, encodeCrc8, encodeCrc16
+from protocol import create_kill, encodeCrc8, encodeCrc16
 from datetime import datetime
 
 class Panel(Tkinter.Frame):
